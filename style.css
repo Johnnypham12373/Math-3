@@ -14,12 +14,13 @@ header.main {
 #background {
     background-image: url(background-math.png);
     width: 100%;
-    height: 1080px;
-    background-size: 100% 1080px;
+    height: 100vh;
+    background-size: cover;
     background-repeat: no-repeat;
     margin: 0px;
     margin-top: -20px;
     padding: 0px;
+    z-index: -1;
 }
 #background2 {
     background-image: linear-gradient(#01618d, #0d2550);
@@ -51,7 +52,7 @@ li a {
 ul.top{
     display:flex;
     align-items: stretch;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: auto;
     margin: 0;
     padding: 0;
@@ -62,7 +63,7 @@ ul.top{
     display:block;
     flex: 0 1 auto;
     list-style-type: none;
-    margin-left: 120px;
+    margin-left: 3%;
 }
 
 #calculator {
@@ -79,30 +80,28 @@ ul.top{
     display:block;
     flex: 0 1 auto;
     list-style-type: none;
-    margin-right: 100px;
+    margin-right: 3%;
 }
 
 div.bar {
     position: relative;
-    top: -1040px;
-    width: 1640px;
+    top: -16vh;
+    width: 90%;
     height: 32px;
     margin: auto;
     background: #e9e9e9;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-li.logo {
-    background-image: url(logo.png);
-    background-repeat: no-repeat;
-    background-size: 250px;
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    left: -35px;
-    top: -39px;
+div.bar2 {
+  position: relative;
+  top: 6vh;
+  width: 90%;
+  height: 32px;
+  margin: auto;
+  background: #e9e9e9;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
 }
-
 h1.center {
     position: relative;
     top: 380px;
@@ -138,27 +137,25 @@ li a:hover {
 
 .arrow {
     box-sizing: border-box;
-    height: 35px;
-    width: 35px;
+    height: 50px;
+    width: 50px;
     border-style: solid;
     border-color: white;
     border-width: 0px 3px 3px 0px;
     transform: rotate(45deg);
     transition: border-width 150ms ease-in-out;
-    position: absolute;
-    left: 920px;
-    right: 47.5%;
-    top: 94%;
-    bottom: 0.09%;
+    margin: auto;
+    position: relative;
+    top: 73%;
 }
   
   .arrow:hover {
-    border-bottom-width: 4px;
-    border-right-width: 4px;
+    border-bottom-width: 7px;
+    border-right-width: 7px;
 }
    
 #section1 {
-    height: 100vh;
+    height: 110vh;
     background-color: #133a83;
     padding: 0;
     margin: 0;
@@ -177,6 +174,7 @@ h1.main {
     text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
     padding: 0;
     margin: 0;
+    margin-top: 50px;
 }
 ol.mods {
     margin-top: 70px;
@@ -285,8 +283,8 @@ p.experience {
 .modal-content {
   margin: auto;
   display: block;
-  width: 90%;
-  max-width: 1200px;
+  width: 80%;
+  max-width: 1100px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
