@@ -1,8 +1,17 @@
 body {
-    background-color: whitesmoke;
+  padding: 0;
+  margin: 0;
+}
+body.website {
+  padding: 0;
+  margin: 0;
+  background-color: whitesmoke;
 }
 body.calc {
   background-color: #133a83;
+}
+body.skills2 {
+  background-color: #7cd1b0;
 }
 header.main {
     background-color: #133a83;
@@ -23,7 +32,7 @@ header.main {
     z-index: -1;
 }
 #background2 {
-    background-image: linear-gradient(#01618d, #0d2550);
+    background-image: linear-gradient(#01618d, whitesmoke, #0d2550);
     width: 100%;
     height: 1800px;
     background-size: 100%;
@@ -49,58 +58,107 @@ li a {
     text-transform: uppercase;
 }
 
-ul.top{
-    display:flex;
-    align-items: stretch;
-    justify-content: space-evenly;
-    width: auto;
-    margin: 0;
-    padding: 0;
-}
-#home {
-    position: relative;
-    bottom: 8px;
-    display:block;
-    flex: 0 1 auto;
-    list-style-type: none;
-    margin-left: 3%;
+#mySidenav a {
+  position: fixed;
+  left: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 16.8px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  z-index: 1;
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-weight: normal;
 }
 
-#calculator {
-    position: relative;
-    bottom: 8px;
-    display:block;
-    flex: 0 1 auto;
-    list-style-type: none;
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 20px;
+  background-color: #7cd1b0;
+}
+
+#calcs {
+  top: 75px;
+  background-color: #56a0dc;
 }
 
 #skills {
-    position: relative;
-    bottom: 8px;
-    display:block;
-    flex: 0 1 auto;
-    list-style-type: none;
-    margin-right: 3%;
+  top: 152px;
+  background-color: #ff8435;
+}
+#mySidenav2 a {
+  position: fixed;
+  left: -90px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 120px;
+  text-decoration: none;
+  font-size: 17.8px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  z-index: 1;
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-weight: normal;
 }
 
-div.bar {
-    position: relative;
-    top: -16vh;
-    width: 90%;
-    height: 32px;
-    margin: auto;
-    background: #e9e9e9;
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+#mySidenav2 a:hover {
+  left: 0;
 }
 
-div.bar2 {
-  position: relative;
-  top: 6vh;
-  width: 90%;
-  height: 32px;
-  margin: auto;
-  background: #e9e9e9;
-  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+#home2 {
+  top: 20px;
+  background-color: #7cd1b0;
+}
+
+#calcs2 {
+  top: 80px;
+  background-color: #56a0dc;
+}
+
+#skills2 {
+  top: 165px;
+  background-color: #ff8435;
+}
+#mySidenav3 a {
+  position: fixed;
+  left: -90px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 120px;
+  text-decoration: none;
+  font-size: 17.8px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  z-index: 1;
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+#mySidenav3 a:hover {
+  left: 0;
+}
+
+#home3 {
+  top: 20px;
+  background-color: #7cd1b0;
+}
+
+#calcs3 {
+  top: 80px;
+  background-color: #56a0dc;
+}
+
+#skills3 {
+  top: 165px;
+  background-color: #ff8435;
 }
 h1.center {
     position: relative;
@@ -1194,7 +1252,7 @@ img {
 .modal-content12{
   margin: auto;
   display: block;
-  width: 80%;
+  width: 82%;
   max-width: 100hv;
   border-style: none;
   border-radius: 0px;
@@ -1284,7 +1342,7 @@ img {
 .modal-content13{
   margin: auto;
   display: block;
-  width: 80%;
+  width: 82%;
   max-width: 100hv;
   border-style: none;
   border-radius: 0px;
@@ -1335,4 +1393,27 @@ img {
   .modal-content {
     width: 100%;
   }
+}
+#infographic {
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+img.info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  border-style: none;
+  border-radius: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  min-height: max-content;
+  mix-blend-mode: luminosity;
+  -webkit-filter: contrast(1.25);
+  filter: contrast(1.25);
+  image-rendering:optimizeQuality;
+  z-index: 1;
 }
