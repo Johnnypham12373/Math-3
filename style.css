@@ -186,7 +186,7 @@ h1.center2 {
     line-height: 128px;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    color: #FFFFFF;
+    color: #1e55b4;
 }
 li a:hover {
     color:#1e55b4;
@@ -204,7 +204,7 @@ li a:hover {
     transition: border-width 150ms ease-in-out;
     margin: auto;
     position: relative;
-    top: 74vh;
+    top: 71vh;
 }
   
   .arrow:hover {
@@ -315,7 +315,7 @@ p.experience {
 .modal-content {
   margin: auto;
   display: block;
-  width: 70%;
+  width: 60%;
   max-width: 100hv;
 }
 
@@ -395,7 +395,7 @@ p.experience {
   .modal-content2 {
     margin: auto;
     display: block;
-    width: 70%;
+    width: 60%;
     max-width: 100hv;
   }
   
@@ -475,7 +475,7 @@ p.experience {
   .modal-content3 {
     margin: auto;
     display: block;
-    width: 70%;
+    width: 60%;
     max-width: 100hv;
   }
   
@@ -555,7 +555,7 @@ p.experience {
   .modal-content4 {
     margin: auto;
     display: block;
-    width: 70%;
+    width: 60%;
     max-width: 100hv;
   }
   
@@ -635,7 +635,7 @@ p.experience {
   .modal-content5 {
     margin: auto;
     display: block;
-    width: 70%;
+    width: 60%;
     max-width: 100hv;
   }
   
@@ -715,7 +715,7 @@ p.experience {
   .modal-content6 {
     margin: auto;
     display: block;
-    width: 70%;
+    width: 60%;
     max-width: 100hv;
   }
   
@@ -795,7 +795,7 @@ p.experience {
   .modal-content7 {
     margin: auto;
     display: block;
-    width: 70%;
+    width: 60%;
     max-width: 100hv;
   }
   
@@ -875,7 +875,7 @@ p.experience {
   .modal-content8 {
     margin: auto;
     display: block;
-    width: 70%;
+    width: 60%;
     max-width: 100hv;
   }
   
@@ -955,7 +955,7 @@ p.experience {
   .modal-content9 {
     margin: auto;
     display: block;
-    width: 70%;
+    width: 60%;
     max-width: 100hv;
   }
   
@@ -1035,7 +1035,7 @@ p.experience {
   .modal-content10 {
     margin: auto;
     display: block;
-    width: 70%;
+    width: 60%;
     max-width: 100hv;
   }
   
@@ -1115,7 +1115,7 @@ p.experience {
   .modal-content11{
     margin: auto;
     display: block;
-    width: 70%;
+    width: 60%;
     max-width: 100hv;
   }
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
