@@ -21,7 +21,7 @@ header.main {
 }
 
 #background {
-    background-image: url(background-math.png);
+    background-image: url(./images/background-math.png);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -32,7 +32,7 @@ header.main {
     z-index: -1;
 }
 #background2 {
-    background-image: url(Calculator_Page.png);
+    background-image: url(./images/Calculator_Page.png);
     width: 100%;
     height: 1800px;
     background-size: 100% 1800px;
