@@ -30,6 +30,22 @@ var span2 = document.getElementsByClassName("close2")[0];
 span2.onclick = function() { 
   modal2.style.display = "none";
 }
+
+var modal22 = document.getElementById("myModal2-2");
+
+var img22 = document.getElementById("myImg2-2");
+var captionText22 = document.getElementById("caption2-2");
+img22.onclick = function(){
+  modal22.style.display = "block";
+  modalImg22.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var span22 = document.getElementsByClassName("close2-2")[0];
+
+span22.onclick = function() { 
+  modal22.style.display = "none";
+}
 //
 
 var modal3 = document.getElementById("myModal3");
